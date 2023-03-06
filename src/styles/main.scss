@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@300;400;500;600;700&family=Space+Mono:wght@700&display=swap");
+
+@import url("./components/header.scss");
+
+$main-font: "Raleway", sans-serif;
+$second-font: "Open Sans", sans-serif;
+
+$primary: #ccb2a3;
+$secondary: #5b5b5b;
+$light-green: #a9c2be;
+
+/*Varibles*/
+:root {
+  --accent-color: #343434;
+  --orange-color: #ff9619;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $main-font;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: 0 135px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--orange-color);
+}
