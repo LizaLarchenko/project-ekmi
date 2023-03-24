@@ -1,0 +1,46 @@
+.section-individual-mebel {
+  background-color: #5b5b5b;
+}
+
+.individual-mebel {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  align-items: center;
+  font-variant: small-caps;
+  display: flex;
+  justify-content: right;
+  width: 300px;
+  padding-bottom: 30px;
+}
+
+.individual-mebel-cycle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.individual-mebel-quality {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.btn-catalog.mebel {
+  padding: 13px 22px 14px 21px;
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: right;
+}

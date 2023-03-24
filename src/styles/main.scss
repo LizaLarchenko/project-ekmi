@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@300;400;500;600;700&family=Space+Mono:wght@700&display=swap");
 
 @import url("./components/header.scss");
+@import url("./components/first.scss");
+@import url("./components/second.scss");
+@import url("./components/individual.scss");
 
 $main-font: "Raleway", sans-serif;
 $second-font: "Open Sans", sans-serif;
@@ -15,6 +18,7 @@ $light-green: #a9c2be;
   --accent-color: #343434;
   --orange-color: #ff9619;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -45,4 +49,18 @@ a {
 
 a:hover {
   color: var(--orange-color);
+}
+
+.btn-catalog {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0;
+  border: none;
+  background-color: var(--orange-color);
+  cursor: pointer;
 }
